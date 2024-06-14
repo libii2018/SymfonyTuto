@@ -3,5 +3,12 @@
 {% block title "Toutes les recettes" %}
 
 {% block body %}
-    lorem
+    <p>
+        lorem
+    </p>
+    <ul>
+        <li>
+            <a href="{{ path('recipe.show',{id: 32, slug: 'pate-bolognaise'}) }}">Pate bolognaise</a>
+        </li>
+    </ul>
 {% endblock %}
